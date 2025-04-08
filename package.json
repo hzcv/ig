@@ -1,0 +1,17 @@
+{
+  "name": "instagram-username-checker",
+  "version": "1.0.0",
+  "description": "A tool to check and claim Instagram usernames",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "instagram-private-api": "^1.46.1",
+    "instagram_mqtt": "^1.2.3",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "https-proxy-agent": "^7.0.6",
+    "workerpool": "^9.2.0"
+  }
+}
